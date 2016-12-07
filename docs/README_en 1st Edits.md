@@ -1,7 +1,7 @@
 # iSpindle Documentation
 
 ***Translation is work in progress, feel free to contribute***
-Update 03/12/16: Firmware 2.1.2 Wifi improvements 
+Update 03/12/16: Firmware 2.1.2 Wifi improvements
 Update 11/29/16: Calibration and Excel Chart 
 Update 28/11/16: Firmware v.2.0 - Ubidots Auto Configuration 
 Update 28/11/16: Ubidots device 
