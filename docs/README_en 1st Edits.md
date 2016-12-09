@@ -69,7 +69,7 @@ o	alternatively (breadboard) board untested )
 Info
 Vendor cachers-world.de unsterstützt this project by sustainably would deliver matching petling and enter the coupon code " HOBBYBRAUERgranted" (uppercase!) 20% discount. This petling-XL fits the 3D printed carriage.
 
-Info: "If at the moment then only 1.44 EUR from 2017 it will then be 1.52 EUR, because the article 10ct goes up."
+Info: Currently the recomended case is only 1.44 EUR.  In 2017 it will go up to 1.52 EUR due to a 10ct increase.
 Info 2: Currently sold out, re-ordered.
 
 
@@ -93,7 +93,7 @@ portal
 By pressing the Reset Tastecreated the Wemos an access point with which connected you can make the necessary settings.
 The iSpindel signals that it is in the configuration mode by blinking steadily every second. 
 Leaving the configuration mode and storing the settings by pressing the menu item Start iSpindel or wait 5 minutes. After that the spendil is in the operating mode that it transmits its data and then goes directly into the "Deep Sleep" standby.  Therefore, it is not erasable in normal mode.
-•	The Ubidots Token, Which,noted above, are now entered here.
+•	The Ubidots Token, noted above, are now entered here.
 •	Also the requirements are the Intervallone in which it provides data. This has to do with the battery life. It is recommended that in practice some 1800seconds (= 30 minutes) to select clock.
  
 •	You get it over
@@ -101,7 +101,7 @@ Leaving the configuration mode and storing the settings by pressing the menu ite
 •	An overview of the data you can on the Infoview menu
  
 After the above data has been entered and stored, the spindle is connected to the Wlan and Ubidots and the data is transferred. 
-On the Ubidots web interface is one now under Sources, check that the data is updated. 
+On the Ubidots web interface under Sources, check that the data is updated. 
 Now you can see the graphs in the Dashboard.
 ________________________________________
 display
