@@ -30,7 +30,8 @@ Table of Contents
 	CraftBeerPi
 	software
 ________________________________________
-license
+Lisence:
+
 Any commercial reproduction or use is in principle prohibited. Applicable patents are violated.
 All rights reserverd, any commercial use is hereby prohibited and will violate applicable patents.
 ________________________________________
@@ -67,6 +68,7 @@ o	alternatively (breadboard) board untested )
 
 Info
 Vendor cachers-world.de unsterstützt this project by sustainably would deliver matching petling and enter the coupon code " HOBBYBRAUERgranted" (uppercase!) 20% discount. This petling-XL fits the 3D printed carriage.
+
 Info: "If at the moment then only 1.44 EUR from 2017 it will then be 1.52 EUR, because the article 10ct goes up."
 Info 2: Currently sold out, re-ordered.
 
@@ -99,17 +101,21 @@ Leaving the configuration mode and storing the settings by pressing the menu ite
 •	An overview of the data you can on the Infoview menu
  
 After the above data has been entered and stored, the spindle is connected to the Wlan and Ubidots and the data is transferred. 
-On the Ubidots web interface is one now under Sourcessee that the data is updated. 
-Now you can in Dashboardthemselves at its graphs will.
+On the Ubidots web interface is one now under Sources, check that the data is updated. 
+Now you can see the graphs in the Dashboard.
 ________________________________________
 display
+
 calibration
+
 For the conversion of angles ° in ° Plato, SG,% mas o.Ä. It is initially necessary to calibrate a reference curve. The obtained references can then be converted to a function which is stored for display. Since each self-assembled spindle will yield different measured values, one has to perform this process once.
 
 See Calibration
+
 Ubidot's graphs
 •	Plato formula
 CraftBeerPi
+
 Work in Progress
 ________________________________________
 software
