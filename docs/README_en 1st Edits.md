@@ -51,20 +51,20 @@ ________________________________________
 construction
 ATTENTION: This corresponds to 20.11.2016
 components
-•	Wemos D1 mini
-•	GY-521 Gyro & Acceleration Sensor (MPU-6050 on suitable breakout board)
-•	DS18B20 Temperature sensor
-•	Hole grid board 3x4cm
-•	Resistors
-o	4k7 ohms
-o	220k ohms
-o	470 ohms
-•	Microswitches
-•	18650 LiIo Zelle(eg Panasonic NCR18650B protected or without PCB ) untested
-•	Lipo charger module TP4056 untested
-•	Plastic sled (template for 3D print in repo)
-o	alternatively (breadboard) board untested )
-•	Plastic cylinder Petling
+⋅⋅*	Wemos D1 mini
+⋅⋅*	GY-521 Gyro & Acceleration Sensor (MPU-6050 on suitable breakout board)
+⋅⋅*	DS18B20 Temperature sensor
+⋅⋅*	Hole grid board 3x4cm
+⋅⋅*	Resistors
+⋅⋅*	4k7 ohms
+⋅⋅*	220k ohms
+⋅⋅*	470 ohms
+⋅⋅*	Microswitches
+⋅⋅*	18650 LiIo Zelle(eg Panasonic NCR18650B protected or without PCB ) untested
+⋅⋅*	Lipo charger module TP4056 untested
+⋅⋅*	Plastic sled (template for 3D print in repo)
+⋅⋅*	alternatively (breadboard) board untested )
+⋅⋅*	Plastic cylinder Petling
 
 Info
 Vendor cachers-world.de unsterstützt this project by sustainably would deliver matching petling and enter the coupon code " HOBBYBRAUERgranted" (uppercase!) 20% discount. This petling-XL fits the 3D printed carriage.
@@ -85,22 +85,22 @@ ________________________________________
 configuration
 
 Ubitdots
-•	Initially a free account with must Ubidots.com be created
-•	The menu API Credentialsgives his Tokenby the iSpindel receives permission to write the data. 
+⋅⋅*	Initially a free account with must Ubidots.com be created
+⋅⋅*	The menu API Credentials gives the Tokenby the iSpindel receives permission to write the data. 
 Note this.
  
 portal
-By pressing the Reset Tastecreated the Wemos an access point with which connected you can make the necessary settings.
+By pressing the Reset Taste created the Wemos an access point with which connected you can make the necessary settings.
 The iSpindel signals that it is in the configuration mode by blinking steadily every second. 
-Leaving the configuration mode and storing the settings by pressing the menu item Start iSpindel or wait 5 minutes. After that the spendil is in the operating mode that it transmits its data and then goes directly into the "Deep Sleep" standby.  Therefore, it is not erasable in normal mode.
-•	The Ubidots Token, noted above, are now entered here.
-•	Also the requirements are the Intervallone in which it provides data. This has to do with the battery life. It is recommended that in practice some 1800seconds (= 30 minutes) to select clock.
+Exit the configuration mode and store the settings by pressing the menu item Start on iSpindel or wait 5 minutes. After that the iSpendil is in operating mode and transmits data.  It then goes directly into the "Deep Sleep" standby.  Ensuring that it is write-protected in normal mode.
+⋅⋅*	The Ubidots Token, noted above, are now entered here.
+⋅⋅*	The Intervallone must allo be intered.  This variable determines teh frequency with wich the iSpendil updates data. More frequent updates deplete the batter faster. The recomended value is 1800 seconds (= 30 minutes) to select clock.
  
-•	You get it over
+⋅⋅*You get it over
   
-•	An overview of the data you can on the Infoview menu
+⋅⋅*An overview of the data you can on the Infoview menu
  
-After the above data has been entered and stored, the spindle is connected to the Wlan and Ubidots and the data is transferred. 
+After the above data has been entered and stored, the iSpindle is connected to the Wlan and Ubidots and the data is transferred. 
 On the Ubidots web interface under Sources, check that the data is updated. 
 Now you can see the graphs in the Dashboard.
 ________________________________________
@@ -113,7 +113,7 @@ For the conversion of angles ° in ° Plato, SG,% mas o.Ä. It is initially nece
 See Calibration
 
 Ubidot's graphs
-•	Plato formula
+⋅⋅*Plato formula
 CraftBeerPi
 
 Work in Progress
@@ -122,7 +122,7 @@ software
 Firmware flashen
 Firmware flashen
 Used libraries
-•	https://github.com/tzapu/WiFiManager for preparing the compound (modified)
-•	Https://github.com/bblanchon/ArduinoJson
+⋅⋅*https://github.com/tzapu/WiFiManager for preparing the compound (modified)
+⋅⋅*Https://github.com/bblanchon/ArduinoJson
 
 ## [Calibration](Calibration_en.md)
