@@ -7,32 +7,30 @@ Update 28/11/16: Firmware v.2.0 - Ubidots Auto Configuration
 Update 28/11/16: Ubidots device 
 Update 23:11:16: Schematic and Firmware
 
-
 The iSpindelis currently in the middle of development, see the Hobbybrauer.de thread . Help is welcome and please submit your supplements by Pull Request. Many thanks to all who provide support on the basis of basic work or to find suitable hardware.
 Table of Contents
-
-•	license
-•	principle
-o	Metacenter
-•	construction
-o	components
-o	circuit diagram
-o	sled
-•	configuration
-o	Ubitdots
-o	portal
-•	display
-o	Calibration of the spindle
-o	Ubidot's graphs
-o	CraftBeerPi
-•	software
+	license
+	principle
+	Metacenter
+	construction
+	components
+	circuit diagram
+	sled
+	configuration
+	Ubitdots
+	portal
+	display
+	Calibration of the spindle
+	Ubidot's graphs
+	CraftBeerPi
+	software
 ________________________________________
 license
 Any commercial reproduction or use is in principle prohibited. Applicable patents are violated.
 All rights reserverd, any commercial use is hereby prohibited and will violate applicable patents.
 ________________________________________
 
-principle
+Principle
 Driven by the thread alternative to stem the idea was born to recreate the commercially available electronic beer spindle.
 The idea of the heeling cylinder is ingenious as easy - you do not need any external reference (except the earth) and the cylinder is extremely easy to keep clean. The inclination angle changes in relation to the buoyancy and thus directly in relation to the sugar content. No unnecessary opening to spindles and possibly contamination!
  
@@ -40,8 +38,10 @@ Therefore the idea to put an IoT device with Wifi together with an acceleration 
 Metacenter
 Actually, this is the "metacentrum", the cylinder will rotate until the metacentrum in the solder is the buoyancy point. We measure this value.
 It is possible to trim by adding a few grams on the ground, so that the cylinder is more upright, or on the lid, so that it will heal more.
+
 The software calculates the Euler angle for X and Y from the XYZ acceleration values and forms the absolute angle. We compute these with the calibrated parameters for ° Plato.
 ________________________________________
+
 construction
 ATTENTION: This corresponds to 20.11.2016
 components
